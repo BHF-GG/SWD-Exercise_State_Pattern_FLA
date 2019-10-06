@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flashlight_SwitchCase", "Flashlight_SwitchCase\Flashlight_SwitchCase.csproj", "{C4AC4AE8-34F3-4DFD-906D-0D6C6B47F824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2_FlashLight_GoFState", "Ex2_FlashLight_GoFState\Ex2_FlashLight_GoFState.csproj", "{1B9A6D9E-1364-4647-9CD7-213C0ADB37AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4AC4AE8-34F3-4DFD-906D-0D6C6B47F824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AC4AE8-34F3-4DFD-906D-0D6C6B47F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AC4AE8-34F3-4DFD-906D-0D6C6B47F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AC4AE8-34F3-4DFD-906D-0D6C6B47F824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9A6D9E-1364-4647-9CD7-213C0ADB37AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9A6D9E-1364-4647-9CD7-213C0ADB37AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9A6D9E-1364-4647-9CD7-213C0ADB37AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9A6D9E-1364-4647-9CD7-213C0ADB37AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6E03B1-FCC0-4049-84B3-70F2390AFD40}
+	EndGlobalSection
+EndGlobal
