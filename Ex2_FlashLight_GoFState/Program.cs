@@ -18,7 +18,7 @@ namespace Ex2_FlashLight_GoFState
             {
                 if(Console.ReadKey().Key == ConsoleKey.B)
                     Console.WriteLine();
-                    flash.Power();
+                    flash.Power(); 
             }
         }
     }
