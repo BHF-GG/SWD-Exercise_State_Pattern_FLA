@@ -10,15 +10,27 @@ namespace Ex2_FlashLight_GoFState
     {
         static void Main(string[] args)
         {
-            FlashLight flash = new FlashLight();
+            IFlashLight flash = new FlashLight();
+            var choice = 'B';
 
-            Console.WriteLine("Press <B> for Button");
 
-            while(true)
+            while (char.ToUpper(choice) != 'Q')
             {
-                if(Console.ReadKey().Key == ConsoleKey.B)
-                    Console.WriteLine();
-                    flash.Power(); 
+                Console.WriteLine("Press <P> for Power");
+                Console.WriteLine("Press <M> for Mode");
+
+                choice = Console.ReadKey().KeyChar;
+
+                switch (char.ToUpper(choice))
+                {
+                    case 'P':
+                        flash.Power();
+                        break;
+
+                    case 'M':
+                        flash.Mode();
+                        break;
+                }
             }
         }
     }

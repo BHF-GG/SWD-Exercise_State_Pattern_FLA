@@ -45,8 +45,6 @@
   <ItemGroup>
     <Compile Include="FlashLight.cs" />
     <Compile Include="FlashLightState.cs" />
-    <Compile Include="OffState.cs" />
-    <Compile Include="OnState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
